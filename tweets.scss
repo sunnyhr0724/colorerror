@@ -1,0 +1,215 @@
+// Place all the styles related to the tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+    background: #e6ecf0;
+}
+.index-cover-image{
+    width:100%;
+    height:300px;
+    z-index: 1;
+    background-image: image-url("color-white2.png");
+}
+.index-garelly{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.index-garelly-container{
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.index-link{
+    margin:40px 10px;
+    padding: 10px;
+    width:490px;
+    height:300px;
+    border-radius: 30px;
+    color:transparent;
+background: #e6ecf0;
+box-shadow:  16px 16px 15px #c8cdd1,
+             -10px -10px 9px #fcfcfc;
+}
+.index-link:hover{
+    color:white;
+    transition-duration: 0.5s;
+    transform: scale(0.95);
+}
+.index-garelly-image{
+    padding:0px -20px;
+}
+.index-garelly-image img{
+    padding:5px;
+    transform: scale(0.94);
+    box-shadow:  16px 16px 16px #c8cdd1;
+    opacity: 1;
+}
+.index-garelly-picture{
+    text-align: center;
+    position: relative;
+    z-index:1
+}
+.index-garelly-info{
+    padding:40px 40px;
+    position: absolute;
+    z-index: 2;
+}
+.index-garelly-bar{
+    margin: 0px 0px 0px 0px;
+    width:490px;
+    height:300px;
+    position:absolute;
+    z-index: 3;
+}
+.index-garelly-bar:hover{
+    background: rgba($color:#e6ecf0, $alpha: 0.3);
+}
+.index-garelly-bar img{
+    margin:130px 60px;
+    opacity:0;
+    transform: scale(0.9);
+}
+.index-garelly-bar img:hover{
+    opacity:1;
+    box-shadow:  9px 9px 8px rgba(92, 96, 97, 0.5),
+             -2px -2px 3px rgba(245, 245, 245, 0.8);
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+.about-title{
+    margin:0;
+    padding:10px 10px;
+    text-align: center;
+    color:gray;
+}
+.about-text{
+    text-align: center;
+    color:gray;
+}
+.sns-icon-container{
+    margin:0;
+    padding:2% 0%;
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.garelly-cover-image{
+    width:100%;
+    height:200px;
+    z-index: 1;
+    background-image: image-url("color-white2.png");
+}
+.garelly-title{
+    margin:0;
+    padding:10px 10px;
+    text-align: center;
+    color:gray;
+}
+.garelly{
+    margin: 0 auto;
+    width:70%;
+    height:50%;
+    border-radius: 48px;
+background: #e6ecf0;
+box-shadow:  22px 22px 21px #c8cdd1,
+             -22px -22px 21px #ffffff;
+}
+.garelly-picture{
+    padding: 0px 10px;
+    text-align: center;
+}
+.palette-container{
+    margin:0 auto;
+    padding:20px 20px;
+    width:90%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+.palette-frame{
+    margin:30px 50px;
+    padding:3px 3px;
+    width:100px;
+    height:100px;
+    border-radius:80px;
+    background: #e6ecf0;
+box-shadow:  22px 22px 21px #c8cdd1,
+             -22px -22px 21px #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.palette-color{
+    margin:4px 4px;
+    padding:6px 6px;
+    width:80px;
+    height:80px;
+    border-radius:60px;
+    box-shadow:  5px 5px 4px #c8cdd1;
+}
+.js-copytext{
+    color:transparent;
+}
+.palette-code{
+    margin:0;
+    padding:0;
+    width:90%;
+    align-items: center;
+}
+.js-copybtn{
+    margin:15px 0px;
+    padding:4px 0px;
+    width:130px;
+    height:40px;
+    border-radius:30px;
+    border: transparent;
+    background: #e6ecf0;
+box-shadow:  10px 10px 9px #c8cdd1,
+             -5px -5px 8px #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#c03a00;
+    outline:none;
+}
+.js-copybtn:hover{
+    transform:scale(0.95);
+    transition-duration: 0.5s;
+}
+.item-container{
+    width:90%;
+    margin: 0 auto;
+    padding:20px 0px;
+    display:flex;
+    flex-wrap: nowrap;
+}
+.item-frame{
+    margin:40px 12px;
+    padding:5px 5px;
+    width:200px;
+    height:250px;
+    border-radius:30px;
+    background: #e6ecf0;
+box-shadow:  22px 22px 21px #c8cdd1,
+             -22px -22px 21px #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.item-frame:hover{
+    transform:scale(0.95);
+    transition-duration: 0.5s;
+}
+.item-image{
+    width:180px;
+    height:300px;
+    transform:scale(0.34);
+    transform-origin:5px 6px;
+}
+.item-image img:hover{
+    opacity:0.7;
+    transition-duration: 0.5s;
+}
